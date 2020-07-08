@@ -5,7 +5,7 @@ public class Calculator extends Operation{
     public Calculator() {
     }
 
-    public void menu(){
+    public static void menu(){
         System.out.println("------     Калькулятор     -----");
         System.out.println("1. Додавання");
         System.out.println("2. Віднімання");
@@ -15,7 +15,7 @@ public class Calculator extends Operation{
         System.out.println();
     }
 
-    public void calculator(){
+    public static void calculator(){
         while (true){
             menu();
             Scanner sc = new Scanner(System.in);
